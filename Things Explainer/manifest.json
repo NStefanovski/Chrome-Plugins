@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Things Explainer",
+    "version": "1.0",
+    "description": "Send highlighted text to ChatGPT and get an explaination",
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "tabs"
+      ],
+    "action": {
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+  }
+  
